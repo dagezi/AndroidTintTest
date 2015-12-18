@@ -18,6 +18,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/npButton"
+        app:backgroundTint="@color/button_colors"
         android:background="@drawable/balloon"
         android:onClick="disableIButton"
         android:text="push me"

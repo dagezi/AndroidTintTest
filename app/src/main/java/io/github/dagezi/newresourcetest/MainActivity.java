@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        npButton.setSupportBackgroundTintList(getResources().getColorStateList(R.color.button_colors));
-
         Drawable roundRects = DrawableCompat.wrap(getResources().getDrawable(R.drawable.round_rect));
         DrawableCompat.setTintList(roundRects, getResources().getColorStateList(R.color.button_colors));
         iButton.setImageDrawable(roundRects);
