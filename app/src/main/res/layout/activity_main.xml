@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="" />
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/npButton"
         app:backgroundTint="@color/button_colors"
         android:background="@drawable/balloon"
