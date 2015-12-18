@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,20 +16,17 @@
         android:layout_height="wrap_content"
         android:text="" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/npButton"
-        android:textColor="@color/button_colors"
         android:background="@drawable/balloon"
-        android:backgroundTint="@color/button_colors"
         android:onClick="disableIButton"
-        android:stateListAnimator="@null"
         android:text="push me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <ImageButton
         android:id="@+id/iButton"
-        android:src="@drawable/round_rect_state"
+        android:src="@drawable/round_rect"
         android:background="@null"
         android:onClick="disableNpButton"
         android:layout_width="wrap_content"

@@ -4,10 +4,9 @@ apply plugin: 'io.github.dagezi.ninepatch'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
-
     defaultConfig {
         applicationId "io.github.dagezi.newresourcetest"
-        minSdkVersion 21
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
